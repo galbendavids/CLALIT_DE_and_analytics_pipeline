@@ -120,6 +120,18 @@ pickle.dump(xgbc, open(filename, 'wb'))
 
 
 clf = xgbc
+
+#parameters = {
+#     "lambda": [ 1, 2, 3],
+#     "eta": [  0.25, 0.30, 0.35, 0.4, 0.5, 0.6],
+#     "max_depth": [3, 4, 5, 6, 8],
+#     "min_child_weight": [4, 5, 7, 8],
+#     "gamma": [ 0.3, 0.4, 0.5],
+#     "colsample_bytree": [  0.7, 0.8, 0.85, 0.9],
+#     "n_estimators": [ 1000,1200,1500,2000,2500],
+#     "scale_pos_weight": [5,10,20, 100, 1000, 10000, 50000, 100000, 150000]
+# }
+
 parameters = {
     "lambda": [ 1],
     "eta": [0.30],
